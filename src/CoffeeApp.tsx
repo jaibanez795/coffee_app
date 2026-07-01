@@ -1,10 +1,10 @@
 
-import Button from '@mui/material/Button';
+import { AppRouter } from './router/AppRouter';
 
 export const CoffeeApp = () => {
     return (
         <>
-            <Button variant="contained">Hello world</Button>
+            <AppRouter />
         </>
     )
 }
